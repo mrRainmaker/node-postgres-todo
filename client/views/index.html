@@ -1,45 +1,144 @@
 <!DOCTYPE html>
 <html ng-app="nodeTodo">
   <head>
-    <title>Todo App - with Node + Express + Angular + PostgreSQL</title>
+    <title>Welcome to the 12mc!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- styles -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="stylesheets/style.css" rel="stylesheet" media="screen">
-  </head>
-  <body ng-controller="mainController">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link   </head>
+  <body ng-conhref="stylesheets/style.css" rel="stylesheet" media="screen">
+
 
     <div class="container">
 
       <div class="header">
-        <h1>Todo App</h1>
+        <h1>12mc Voting App</h1>
         <hr>
-        <h1 class="lead">Node + Express + Angular + PostgreSQL</h1>
+        <h1 class="lead">You have 5 credits - Split them between your favourite teams OR assign them to just one! :)</h1>
+      </div>
+
+      <br>
+
+
+    </div>
+
+    <body ng-conhref="stylesheets/style.css" rel="stylesheet" media="screen">
+
+
+    <div class="container">
+
+      <div class="header">
+        <h1>Team 1</h1>
+        <hr>
       </div>
 
       <div class="todo-form">
         <form>
           <div class="form-group">
-            <input type="text" class="form-control input-lg" placeholder="Enter text..." ng-model="formData.text">
+            <input type="text" class="form-control input-lg" placeholder="Enter No of Credits" ng-model="formData.text">
           </div>
-          <button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="createTodo()">Add Todo</button>
         </form>
       </div>
 
       <br>
 
-      <div class="todo-list">
-        <ul ng-repeat="todo in todoData">
-          <li><h3><input class="lead" type="checkbox" ng-click="deleteTodo(todo.id)">&nbsp;{{ todo.text }}</li></h3><hr>
-        </ul>
-      </div>
+    
 
     </div>
 
-    <!-- scripts -->
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.12/angular.min.js"></script>
-    <script src="javascripts/app.js"></script>
-  </body>
-</html>
+    <body ng-conhref="stylesheets/style.css" rel="stylesheet" media="screen">
+
+
+    <div class="container">
+
+      <div class="header">
+        <h1>Team 2</h1>
+        <hr>
+ 
+      </div>
+
+      <div class="todo-form">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Enter No of Credits" ng-model="formData.text">
+          </div>
+        </form>
+      </div>
+
+      <br>
+
+  
+
+    </div>
+
+    <body ng-conhref="stylesheets/style.css" rel="stylesheet" media="screen">
+
+
+    <div class="container">
+
+      <div class="header">
+        <h1>Team 3</h1>
+        <hr>
+
+      </div>
+
+      <div class="todo-form">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Enter No of Credits" ng-model="formData.text">
+          </div>
+        </form>
+      </div>
+
+      <br>
+
+    </div>
+
+
+<body ng-conhref="stylesheets/style.css" rel="stylesheet" media="screen">
+
+
+    <div class="container">
+
+      <div class="header">
+        <h1>Team 4</h1>
+        <hr>
+        
+      </div>
+
+      <div class="todo-form">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Enter No of Credits" ng-model="formData.text">
+          </div>
+        </form>
+      </div>
+
+      <br>
+
+    </div>
+
+
+<body ng-conhref="stylesheets/style.css" rel="stylesheet" media="screen">
+
+
+    <div class="container">
+
+      <div class="header">
+        <h1>Team 5</h1>
+        <hr>
+
+      </div>
+
+      <div class="todo-form">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Enter No of Credits" ng-model="formData.text">
+          </div>
+          <br> </br>
+          <button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="createTodo()">Assign Credits</button>
+        </form>
+      </div>
+<br> </br>
+
+  
